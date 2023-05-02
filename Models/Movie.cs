@@ -4,6 +4,9 @@ namespace TestingWebAppASPMVC.Models
 {
     public class Movie
     {
+        /// <summary>
+        /// Db unique identifier
+        /// </summary>
         public int Id { get; set; }
 
         public string? MovieTitle { get; set; }
